@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form Assignment</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+<h1 class="text-dark m-5">Form Row</h1>
+<form action="" class="m-5">
+    <div class="row">
+        <div class="col">
+           <label for="fname" class="form-label mb-3">First Name: </label>
+           <input type="password" id="fname" class="form-control mb-3" placeholder="First name" required="required">
+        </div>
+
+        <div class="col">
+            <label for="lname" class="form-label mb-3">Last Name: </label>
+            <input type="password" id="lname" class="form-control mb-3" placeholder="Last name" required="required">
+        </div>
+</div>
+    <div>
+        <label for="address" class="form-label mb-3">Address: </label>
+        <input type="email" id="address" class="form-control mb-3" placeholder="Address" required="required">
+    </div>
+    <div class="row">
+        <div class="col">
+            <label for="city" class="form-label mb-3">City: </label>
+            <input type="password" id="city" class="form-control mb-3" placeholder="City" required="required">
+        </div>
+
+        <div class="col">
+            <label for="state" class="form-label mb-3">State: </label>
+            <select name="select" id="state" class="form-control">
+                <option value="" disabled selected>Select State</option>
+                <option value="">Uganda</option>
+                <option value="">Ethiopia</option>
+                <option value="">Algeria</option>
+                <option value="">Kenya</option>
+            </select>
+        </div>
+
+        <div class="col">
+            <label for="pin" class="form-label mb-3">Pin Code: </label>
+            <input type="password" id="pin" class="form-control mb-3" placeholder="Pin Code" required="required">
+        </div>
+    </div>
+
+    <input type="checkbox" id="java">
+    <label for="java">Java</label>I Agree To terms and Conditions<br>
+
+    <button type="submit" class="btn btn-primary mx-auto ">Submit</button>
+</form>
+</body>
+</html>
